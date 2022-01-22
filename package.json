@@ -1,0 +1,20 @@
+{
+  "name": "random-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-worker --experimental-json-modules main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "i": "^0.3.7",
+    "log-update": "^5.0.0",
+    "npm": "^8.3.2"
+  }
+}
